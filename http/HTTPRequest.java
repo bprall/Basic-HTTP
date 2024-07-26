@@ -3,6 +3,11 @@ package http;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/**
+ * Class representing a single HTTP request message.
+ *
+ * @version 1.0
+ */
 public class HTTPRequest {
     private Scanner input;
     private boolean validated;

@@ -6,6 +6,11 @@ import java.net.Socket;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
+/**
+ * HTTPConnection represents a single client connection to this server.
+ *
+ * @version 1.0
+ */
 public class HTTPConnection implements Runnable {
     private Socket client;
     private Scanner socketInput;
@@ -15,7 +20,7 @@ public class HTTPConnection implements Runnable {
     HTTPConnection(Socket client) {
         this.client = client;
     }
-    
+
     private void processRequest() {
         try {
             var request = new HTTPRequest(socketInput);
