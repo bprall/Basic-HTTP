@@ -38,7 +38,7 @@ This project provides a basic HTTP server implementation in Java. It responds to
         Host: localhost
         ```
     
-    **Using a Web Browser:**
+    - **Using a Web Browser:**
         Open your browser and go to `http://localhost/` or `http://localhost/test.html` to test the server responses.
 
 # Notes
