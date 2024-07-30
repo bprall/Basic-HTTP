@@ -31,8 +31,8 @@ This project provides a basic HTTP server implementation in Java. It responds to
 4. **Testing:**
 
     - **Using Telnet:**
+        In another terminal window enter paste this:
         ```bash
-        Copy code
         telnet localhost 80
         GET / HTTP/1.1
         Host: localhost
