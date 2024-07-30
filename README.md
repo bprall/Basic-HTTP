@@ -32,7 +32,7 @@ This project provides a basic HTTP server implementation in Java. It responds to
 
     - **Using Telnet:**
         
-        In another terminal window enter paste this:
+        In another terminal window paste this:
         ```bash
         telnet localhost 80
         GET / HTTP/1.1
