@@ -46,3 +46,4 @@ This project provides a basic HTTP server implementation in Java. It responds to
 # Notes
 - Ensure that the content and errors directories contain the necessary HTML files.
 - Use Wireshark to monitor network traffic and verify server responses if needed.
+- You can replace the html files in content to display your own locally.
